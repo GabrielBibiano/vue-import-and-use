@@ -2,13 +2,15 @@ const latestItemFrom = array => array[array.length - 1]
 
 export default {
   created () {
-    const { importToUse } = this.$options
+    const { importAndUse } = this.$options
 
-    if (importToUse) {
-      importToUse.forEach(path => {
+    if (importAndUse) {
+      importAndUse.forEach(path => {
         let pathArray = path.split('/');
         let componentName = latestItemFrom(pathArray)
         componentName = componentName.replace(/.vue/gi, '')
+        
+        path = path[0] !== '/' ? '/' + path : path
 
         const promise = import('@/components' + path + '.vue')
         this.$options.components[componentName] = () => promise
