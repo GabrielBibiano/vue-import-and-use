@@ -33,7 +33,8 @@
     "@babel/core": "^7.4.3",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.4.3",
-    "vue": "^2.0.3"
+    "ava": "^1.4.1",
+    "vue": "^2.6.10"
   },
   "dependencies": {}
 }

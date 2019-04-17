@@ -12,7 +12,7 @@ export default {
 
         const promise = import('@/components' + path + '.vue')
         this.$options.components[componentName] = () => promise
-      });
+      })
     }
   }
 }
