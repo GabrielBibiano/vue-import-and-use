@@ -1,0 +1,39 @@
+{
+  "name": "vue-import-and-use",
+  "version": "0.1.0",
+  "description": "A solution to simplify import and use of Vue.js components",
+  "main": "dist/importAndUse.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBibiano/vue-import-and-use.git"
+  },
+  "keywords": [
+    "gabriel",
+    "bibiano",
+    "vue",
+    "import",
+    "use",
+    "component",
+    "javascript"
+  ],
+  "author": "Gabriel Bibiano <gabriel@bibiano.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielBibiano/vue-import-and-use/issues"
+  },
+  "homepage": "https://github.com/GabrielBibiano/vue-import-and-use#readme",
+  "peerDependencies": {
+    "vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "vue": "^2.0.3"
+  },
+  "dependencies": {}
+}
