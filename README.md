@@ -43,7 +43,7 @@ import importAndUse from 'vue-import-and-use'
 export default {
   mixins: [importAndUse],
   name: 'my-component',
-  // Is it necessary to explain?
+  // Is it necessary to explain? :joy:
   // '/' is not required but is supported
   importAndUse: [
     'A', 
