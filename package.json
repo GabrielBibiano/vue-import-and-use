@@ -1,6 +1,6 @@
 {
   "name": "vue-import-and-use",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A solution to simplify import and use of Vue.js components",
   "main": "dist/importAndUse.js",
   "scripts": {
