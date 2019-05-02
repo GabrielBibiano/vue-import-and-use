@@ -55,6 +55,7 @@ export default {
 </script>
 ```
 
-### Limitation
+### Limitation 
+ - componente "name" is not considered. The element is created based on the name of the imported file
  - `@` alias is required
  - all components must be in `@/components/`
